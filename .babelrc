@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "react": "preact-compat",
+        "react-dom": "preact-compat"
+      }
+    }],
+    "external-helpers",
+    "transform-react-jsx"
+  ],
+  "presets": [
+    ["es2015", {
+      "modules": false
+    }]
+  ]
+}
