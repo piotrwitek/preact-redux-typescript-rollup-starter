@@ -8,9 +8,9 @@
 ## Demo Page: https://piotrwitek.github.io/preact-typescript-rollup-starter-kit/
 
 ## Bundle size comparison:
-- react + react-dom = 138KB
 - preact + preact-compat + redux + react-redux = 13KB!!!
-- preact + preact-compat + redux + react-redux + google-map-react = 24KB!!!
+- preact + preact-compat + redux + react-redux + google-map-react ([Demo Page](https://piotrwitek.github.io/preact-typescript-rollup-starter-kit/)) = 24KB!!!
+- react + react-dom (same source code) = 138KB
 
 ## Installation
 ```
