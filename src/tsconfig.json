@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "declaration": false,
+    "jsx": "preserve",
+    "module": "es6",
+    "newLine": "LF",
+    "noEmit": false,
+    "noEmitOnError": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noResolve": false,
+    "outDir": "../out",
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": true,
+    "isolatedModules": false,
+    "sourceMap": false,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "typeRoots": ["../node_modules/@types/**/*"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es6", "es2015.iterable", "es2015.promise", "es2016.array.include", "es2017.object"]
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules/**/",
+    "jspm_packages/**/"
+  ],
+  "compileOnSave": false,
+  "vscode": {
+    "rewriteTsconfig": true
+  },
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2,
+    "newLineCharacter": "\r\n",
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": false,
+    "placeOpenBraceOnNewLineForControlBlocks": false
+  }
+}
