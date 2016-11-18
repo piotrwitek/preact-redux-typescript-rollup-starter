@@ -1,5 +1,5 @@
 # Minimal React-like + Redux starter-kit _EVER_
-# _13KB Minified+Gzipped_
+# _13KB min+gzip_
 - Preact a drop-in replacement for React: https://preactjs.com/
 - tree-shaking and bundling with Rollup
 - type-checking with TypeScript

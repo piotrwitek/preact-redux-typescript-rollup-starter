@@ -1,7 +1,7 @@
 {
   "name": "preact-typescript-rollup-starter-kit",
   "version": "0.1.0",
-  "description": "Minimal React-like + Redux starter-kit ever - 27KB Minified+Gzipped (using Rollup tree-shaking, TypeScript for Type Checking and Babel Transpilation)",
+  "description": "Minimal React-like + Redux starter-kit EVER - 13KB ,in+gzip",
   "author": "Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)",
   "homepage": "http://piotrwitek.github.io/preact-typescript-rollup-starter-kit/",
   "repository": "https://github.com/piotrwitek/preact-typescript-rollup-starter-kit",
