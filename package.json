@@ -1,10 +1,22 @@
 {
-  "name": "preact-test",
-  "version": "1.0.0",
-  "description": "",
+  "name": "preact-typescript-rollup-starter-kit",
+  "version": "0.1.0",
+  "description": "Minimal React-like + Redux starter-kit ever - 27KB Minified+Gzipped (using Rollup tree-shaking, TypeScript for Type Checking and Babel Transpilation)",
   "author": "Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)",
+  "homepage": "http://piotrwitek.github.io/preact-typescript-rollup-starter-kit/",
+  "repository": "https://github.com/piotrwitek/preact-typescript-rollup-starter-kit",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "server.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run tsc:watch\" \"npm run build:watch\" \"node server.js\" --prefix \"[{name}]\" --names \"TSC,ROLLUP,SERVER\"",
+    "watch": "tsc -p src -w",
+    "tsc": "tsc -p src",
+    "tsc:watch": "tsc -p src -w",
+    "build": "rollup -c rollup.config.js",
+    "build:watch": "rollup -c rollup.config.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint ./src/**/*.ts[x]"
+  },
   "dependencies": {
     "google-map-react": "^0.21.0",
     "preact": "^6.4.0",
@@ -33,15 +45,5 @@
     "rollup-watch": "^2.5.0",
     "tslint": "^3.15.1",
     "typescript": "^2.0.6"
-  },
-  "scripts": {
-    "start": "concurrently --kill-others \"npm run tsc:watch\" \"npm run build:watch\" \"node server.js\" --prefix \"[{name}]\" --names \"TSC,ROLLUP,SERVER\"",
-    "watch": "tsc -p src -w",
-    "tsc": "tsc -p src",
-    "tsc:watch": "tsc -p src -w",
-    "build": "rollup -c rollup.config.js",
-    "build:watch": "rollup -c rollup.config.js -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint ./src/**/*.ts[x]"
   }
 }
