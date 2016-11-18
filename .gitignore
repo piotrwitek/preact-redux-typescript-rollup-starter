@@ -29,4 +29,3 @@ build/Release
 node_modules
 out
 dist
-bundle.js
