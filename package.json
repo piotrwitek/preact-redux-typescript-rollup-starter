@@ -15,7 +15,8 @@
     "build": "rollup -c rollup.config.js",
     "build:watch": "rollup -c rollup.config.js -w",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint ./src/**/*.ts[x]"
+    "lint": "tslint ./src/**/*.ts[x]",
+    "deploy": "cd dist && git checkout gh-pages && git add --all && git commit -m \"New Release\" && git push"
   },
   "dependencies": {
     "google-map-react": "^0.21.0",
