@@ -1,0 +1,1 @@
+Copyright (C) 2016 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
