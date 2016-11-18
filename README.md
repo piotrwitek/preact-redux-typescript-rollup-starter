@@ -1,6 +1,11 @@
-# Minimal React-like + Redux starter-kit ever - 13KB Minified+Gzipped
-> Preact is a drop-in replacement for React: https://preactjs.com/
-### using Rollup for tree-shaking, TypeScript for Type Checking and Babel for Transpilation
+# Minimal React-like + Redux starter-kit _EVER_
+# _13KB Minified+Gzipped_
+- Preact a drop-in replacement for React: https://preactjs.com/
+- tree-shaking and bundling with Rollup
+- type-checking with TypeScript
+- ES5 transpilation with Babel
+
+## Demo Page: https://piotrwitek.github.io/preact-typescript-rollup-starter-kit/
 
 ## Bundle size comparison:
 - react + react-dom = 138KB
