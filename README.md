@@ -19,4 +19,7 @@ npm run tsc && npm run build
 npm start
 ```
 
+#### Warning:
+Make sure to use exact dependencies versions to make this project starter work, because newer preact-plugins can introduce breaking changes and can stop this setup from working.  
+
 Copyright (C) 2016 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
