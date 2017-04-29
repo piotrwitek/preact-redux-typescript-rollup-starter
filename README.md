@@ -24,6 +24,6 @@ Make sure to use exact dependencies versions set in this project, then update ea
 
 ---
 
-### MIT License
+## The MIT License (MIT)
 
 Copyright (c) 2016 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
