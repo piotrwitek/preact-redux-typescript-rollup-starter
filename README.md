@@ -22,6 +22,8 @@ npm start
 #### Warning:
 Make sure to use exact dependencies versions set in this project, then update each dependency separately because newer preact-plugins can introduce breaking changes and stop this setup from working.  
 
-MIT License
+---
+
+### MIT License
 
 Copyright (c) 2016 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
