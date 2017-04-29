@@ -5,7 +5,7 @@
   "author": "Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)",
   "homepage": "http://piotrwitek.github.io/preact-typescript-rollup-starter-kit/",
   "repository": "https://github.com/piotrwitek/preact-typescript-rollup-starter-kit",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "concurrently --kill-others \"npm run tsc:watch\" \"npm run build:watch\" \"node server.js\" --prefix \"[{name}]\" --names \"TSC,ROLLUP,SERVER\"",
