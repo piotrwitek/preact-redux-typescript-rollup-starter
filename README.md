@@ -5,7 +5,7 @@
 - static typing with TypeScript
 - ES5 transpilation with Babel
 
-### Demo Page: https://piotrwitek.github.io/preact-typescript-rollup-starter/
+### Demo Page: https://piotrwitek.github.io/preact-redux-typescript-rollup-starter/
 
 ## Bundle size comparison:
 - preact + preact-compat + redux + react-redux ([Bundle](https://github.com/piotrwitek/preact-typescript-rollup-starter-kit/blob/master/bundle.js.gz))= 13KB!!!
